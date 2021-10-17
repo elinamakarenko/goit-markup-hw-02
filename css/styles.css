@@ -16,19 +16,21 @@ body {
 .link {
   text-decoration: none;
 }
+
+.head-studio {
+  color: var(--secondary-title-color);
+}
 .btn {
+  font-family: inherit;
   font-size: 16px;
   text-align: center;
-  background-color: #f5f4fa;
-  color: var(--secondary-title-color);
   cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primary-title-color);
 }
 .btn-studio {
   font-weight: 700;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .btn-portfolio {
@@ -36,9 +38,11 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
 }
-.btn:hover,
-.btn:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--primary-title-color);
 }
@@ -52,6 +56,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.page-link{
+  color: var(--accent-color);
+}
+.menu-link-color{
   color: var(--secondary-title-color);
 }
 .menu-link:hover,
@@ -91,6 +100,7 @@ body {
 }
 /*hero*/
 .hero {
+  text-align: center;
   background-color: var(--background-color);
 }
 .hero-title {
@@ -170,6 +180,9 @@ body {
 .footer {
   background-color: var(--background-color);
 }
+.footer-studio {
+  color: var(--primary-title-color);
+}
 .address-link {
   font-style: normal;
   font-size: 14px;
@@ -181,7 +194,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(141, 112, 112, 0.6);
 }
 
 .footer-link:hover,
